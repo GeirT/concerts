@@ -11,5 +11,6 @@
   "theme": "flow",
   "css": "./custom.css",
   "footer": "Lights and lasers, smoke and mirrors",
-  "usage-stats": true
+  "usage-stats": true,
+  "embed-exif": true
 }
