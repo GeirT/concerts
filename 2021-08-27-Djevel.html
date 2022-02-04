@@ -4,7 +4,7 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Concert pictures - Home</title>
+      <title>Concert pictures - 2021-08-27-Djevel</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
       <link rel="stylesheet" href="public/lightslider/css/lightslider.min.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
@@ -29,7 +29,7 @@
         Breadcrumbs of parent albums
       -->
       <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2021-08-27-Djevel.html">2021-08-27-Djevel</a>
       </nav>
     
     
@@ -37,41 +37,31 @@
         Nested albums, if any
       -->
       <div id="albums" class="justified-gallery">
-            <a href="2022-01-20-Arcturus.html">
-              <img src="media/small/2022-01-20-Arcturus/4862052A-BA4E-441B-95B5-5F25643A384D.jpeg" alt="">
-              <div class="caption" style="display: inline-block">
-                <h3>2022-01-20-Arcturus</h3>
-                <div class="summary">18 photos</div>
-              </div>
-            </a>
-            <a href="2021-12-02-Anneke.html">
-              <img src="media/small/2021-12-02-Anneke/5E47BEA7-B838-4574-B968-5144E9622171.jpeg" alt="">
-              <div class="caption" style="display: inline-block">
-                <h3>2021-12-02-Anneke</h3>
-                <div class="summary">5 photos</div>
-              </div>
-            </a>
-            <a href="2021-08-27-Superlynx.html">
-              <img src="media/small/2021-08-27-Superlynx/9DC7C241-B917-4AB4-A17E-9F0117924DFA.jpeg" alt="">
-              <div class="caption" style="display: inline-block">
-                <h3>2021-08-27-Superlynx</h3>
-                <div class="summary">1 photo</div>
-              </div>
-            </a>
-            <a href="2021-08-27-Djevel.html">
-              <img src="media/small/2021-08-27-Djevel/A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg" alt="">
-              <div class="caption" style="display: inline-block">
-                <h3>2021-08-27-Djevel</h3>
-                <div class="summary">2 photos</div>
-              </div>
-            </a>
       </div>
     
       <!--
         All photos and videos
       -->
       <ul id="media" class="clearfix justified-gallery">
-      </ul>
+          
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/original/2021-08-27-Djevel/A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"data-src="media/large/2021-08-27-Djevel/A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"data-exthumbimage="media/thumbs/2021-08-27-Djevel/A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"data-filename="A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"><a href="media/large/2021-08-27-Djevel/A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"><img
+                      src="media/small/2021-08-27-Djevel/A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"
+                      width="400"
+                      height="300"alt="A87D11EE-1CD6-40C4-A43C-78E76CFA8B49.jpeg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/original/2021-08-27-Djevel/CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"data-src="media/large/2021-08-27-Djevel/CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"data-exthumbimage="media/thumbs/2021-08-27-Djevel/CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"data-filename="CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"><a href="media/large/2021-08-27-Djevel/CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"><img
+                      src="media/small/2021-08-27-Djevel/CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"
+                      width="537.0106761565836"
+                      height="300"alt="CBCD69ED-2955-423A-B746-970DF40F909E.jpeg"/>
+              </a>
+          
+          </div>  </ul>
     
       <!--
         Pagination
@@ -137,30 +127,6 @@
       });
     </script>
 
-      <script id="slider-js" data-interval="">
-        $(document).ready(function () {
-          let waitTime = 1000;
-
-          try {
-            waitTime = parseInt($("#slider-js").data("interval"));
-          } catch (e) {
-            console.error("Invalid speed value for slider: " + waitTime + "\n" + e);
-          }
-
-          $("#lightSlider").lightSlider({
-            auto: true,
-            loop: true,
-            item: 1,
-            gallery: true,
-            pause: waitTime,
-            onSliderLoad: (el) => {
-              el.lightGallery({
-                selector: "#lightSlider li"
-              })
-            }
-          });
-        });
-      </script>
 
 
   </body>
